@@ -1,0 +1,44 @@
+.apresentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+
+.title {
+  font-family: 'Marcellus', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 0px;
+}
+
+.textVideo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.midia {
+    width: 55rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.video {
+    border-radius: 15px;
+}
+
+.cartilha {
+   width: 55rem;
+   height: 15rem;
+   border: 2px black solid; 
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
