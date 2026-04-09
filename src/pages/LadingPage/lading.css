@@ -1,0 +1,35 @@
+.ladingPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    width: 70rem;
+    gap: 5rem;
+}
+
+.mainFirst {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mainSecond {
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.titleLading {
+  font-family: 'Marcellus', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 4rem;
+  margin: 0px;
+}

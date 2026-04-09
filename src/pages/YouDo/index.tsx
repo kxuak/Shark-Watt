@@ -1,11 +1,10 @@
-import React from 'react'
 import './index.css'
 
 const YouDo = () => {
   return (
     <div className='apresentation'>
 
-      <h1 className='title'>Do it yourself</h1>
+      <h1 className='titleYouDo'>Do it yourself</h1>
 
       <div className='midia'>
           <p className='textVideo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quidem cum dolorum ullam? Qui temporibus fuga maiores? Rem velit dolor praesentium, quaerat itaque aspernatur reprehenderit maxime maiores cum a magni. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente et earum facere neque possimus minima adipisci sunt eligendi animi.</p>
