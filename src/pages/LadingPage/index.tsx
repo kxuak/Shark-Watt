@@ -1,8 +1,14 @@
+import Button from '../../components/Button'
 import './lading.css'
 
 const LadingPage = () => {
   return (
     <div className="ladingPage">
+      <div className="upper">
+      <Button
+        text="My Device"
+      />
+      </div>
       <div className="main">
       <div className="mainFirst">
           <h1 className="titleLading">Fierce Style <br />Real Power</h1>
