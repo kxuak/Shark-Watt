@@ -1,8 +1,10 @@
 import Button from '../../components/Button'
+import Card from '../../components/Card'
 import './lading.css'
 
 const LadingPage = () => {
   return (
+    <div className="container">
     <div className="ladingPage">
       <div className="upper">
       <Button
@@ -19,6 +21,8 @@ const LadingPage = () => {
         tubarao
       </div>
       </div>
+      <div className="cards"><Card></Card></div>
+    </div>
     </div>
   )
 }

@@ -1,16 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 .ladingPage {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin-top: 2rem;
+    margin-top: 2rem; 
+    width: 70rem;
 }
 
 .main {
     display: flex;
-    width: 70rem;
-    gap: 5rem;
+    width: 100%;
 }
 
 .mainFirst {
@@ -35,3 +40,11 @@
   font-size: 4rem;
   margin: 0px;
 }
+
+.upper {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    border: 2px black solid;
+}
+
