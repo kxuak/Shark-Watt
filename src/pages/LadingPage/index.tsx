@@ -21,7 +21,15 @@ const LadingPage = () => {
         tubarao
       </div>
       </div>
-      <div className="cards"><Card></Card></div>
+      <h1 className='features'>Features</h1>
+      <div className="cards"><Card
+      text="A prova d'água"/></div>
+      <div className="cards"><Card
+      text='design inteligente'/></div>
+      <div className="cards"><Card
+      text='prevençaõ contra curto-circuito dobrado'/></div>
+      <div className="cards"><Card
+      text='proteção contra entrada de agua'/></div>
     </div>
     </div>
   )

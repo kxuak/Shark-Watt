@@ -48,3 +48,10 @@
     border: 2px black solid;
 }
 
+.features {
+    font-family: 'Marcellus', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 4rem;
+  margin: 0px;
+}
