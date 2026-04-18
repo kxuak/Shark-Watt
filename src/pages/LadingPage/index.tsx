@@ -1,6 +1,7 @@
 import "./lading.css";
 import Button from "../../components/Button";
 import Card from "../../components/Card";
+import tubarao from "../../../public/tubarao.png";
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
         </div>
 
         <div className="hero-right">
-          <img src="./public/tubarao.png" />
+          <img src={tubarao} />
         </div>
       </section>
 
