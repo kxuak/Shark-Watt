@@ -1,17 +1,16 @@
-import './index.css'
+import "./index.css"
 
-type CardProps = {
-  text: string;
+type Props = {
+  title: string;
+  description: string;
 };
 
-const Card: React.FC<CardProps> = ({text = "button"}) => {
+export default function Card({ title, description }: Props) {
   return (
-  <div className="card">
-    <div className="card-content">
-      <div className="tittle-card">{text}</div>
+    <div className="card">
+      <div className="card-bar" />
+      <h3>{title}</h3>
+      <p>{description}</p>
     </div>
-  </div>
-  )
+  );
 }
-
-export default Card
