@@ -25,7 +25,7 @@
 
 .main-home {
     max-width: 50rem;
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: start;
     flex-direction: column;
