@@ -2,14 +2,17 @@ import "./lading.css";
 import Button from "../../components/Button";
 import Card from "../../components/Card";
 import tubarao from "../../../public/tubarao.png";
+import { Link } from "react-router-dom";
 
-export default function Home() {
+export default function LadingPage() {
   return (
     <div className="container">
 
       <nav className="navbar">
         <span className="logo">Shark Watt</span>
+        <Link to="/home">
         <Button variant="outline" size="normal">My Device</Button>
+        </Link>
       </nav>
 
       <section className="hero">
