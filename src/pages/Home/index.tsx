@@ -25,13 +25,13 @@ function Home() {
   }
 
   return (
-    <div>
+    <div className="container">
     <nav className="navbar">
         <span className="logo">Shark Watt</span>
         <Link to="/">
         <Button variant="outline" size="normal">Lading Page</Button>
         </Link>
-      </nav>
+    </nav>
     <div className="container-home">
       <div className="main-home">
         <div className="main-home-text">
@@ -43,8 +43,25 @@ function Home() {
           <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00e0ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-antenna-bars-5"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M6 18l0 -3" /><path d="M10 18l0 -6" /><path d="M14 18l0 -9" /><path d="M18 18l0 -12" /></svg></p>
         </div>
         <div className="main-home-gps"><Mapa /></div>
-      </div>
+        
+      </div> 
     </div>
+    <footer className="footer">
+      <div className="footer-left">
+        <h3>Shark Watt</h3>
+        <p>Fierce style. Real power.</p>
+      </div>
+
+      <div className="footer-center">
+        <a href="https://unifor.br/">Unifor</a>
+        <a href="#features">Features</a>
+        <a href="#">Buy</a>
+      </div>
+
+      <div className="footer-right">
+        <p>© 2026 Shark Watt</p>
+      </div>
+    </footer>
     </div>
   );
 }

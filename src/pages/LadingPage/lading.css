@@ -71,7 +71,7 @@
 .features {
   max-width: 1000px;
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 5rem;
   padding: 80px 40px;
   display: flex;
   flex-direction: column;
