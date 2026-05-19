@@ -27,7 +27,7 @@ function Home() {
   return (
     <div className="container">
     <nav className="navbar">
-        <span className="logo">Shark Watt</span>
+        <span className="logo">Shark Watts</span>
         <Link to="/">
         <Button variant="outline" size="normal">Lading Page</Button>
         </Link>
@@ -36,7 +36,7 @@ function Home() {
       <div className="main-home">
         <div className="main-home-text">
           <h1 className="tracker-title">Find Device</h1>
-          <p className="tracker-description">Track the location of your Shark Watt in real time. The integrated GPS allows you to track your power bank at any time, ensuring you never lose your device.</p>
+          <p className="tracker-description">Track the location of your Shark Watts in real time. The integrated GPS allows you to track your power bank at any time, ensuring you never lose your device.</p>
         </div>
         <div className="main-home-widgets">
           <p className="online"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="currentColor" className="icon icon-tabler icons-tabler-filled icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M7 3.34a10 10 0 1 1 -4.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 4.995 -8.336z" /></svg> online</p>
@@ -48,7 +48,7 @@ function Home() {
     </div>
     <footer className="footer">
       <div className="footer-left">
-        <h3>Shark Watt</h3>
+        <h3>Shark Watts</h3>
         <p>Fierce style. Real power.</p>
       </div>
 
@@ -61,7 +61,7 @@ function Home() {
       </div>
 
       <div className="footer-right">
-        <p>© 2026 Shark Watt</p>
+        <p>© 2026 Shark Watts</p>
       </div>
     </footer>
     </div>

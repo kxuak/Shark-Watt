@@ -9,7 +9,7 @@ export default function LadingPage() {
     <div className="container">
 
       <nav className="navbar">
-        <span className="logo">Shark Watt</span>
+        <span className="logo">Shark Watts</span>
         <Link to="/home">
         <Button variant="outline" size="normal">My Device</Button>
         </Link>
@@ -20,7 +20,7 @@ export default function LadingPage() {
           <h1 className="title-text">Fierce Style<br />Real Power</h1>
 
           <p className="main-text">
-            The Shark Watt is a power bank for those who refuse limits: with a shark-shaped design, it combines style and high performance for any situation. Waterproof, it lets you charge your phone even underwater — perfect for the beach, pool, or rain — but should not be recharged while wet or submerged. It also features a built-in tracker for added security. Compact, durable, and powerful, it keeps you connected anywhere.
+            The Shark Watts is a power bank for those who refuse limits: with a shark-shaped design, it combines style and high performance for any situation. Waterproof, it lets you charge your phone even underwater — perfect for the beach, pool, or rain — but should not be recharged while wet or submerged. It also features a built-in tracker for added security. Compact, durable, and powerful, it keeps you connected anywhere.
           </p>
           <h3 className="info">
             5200 mAh | 12 W
@@ -74,7 +74,7 @@ export default function LadingPage() {
         ></iframe>
         <div>
         <p className="video-text">
-              To help users better understand the SharkWatt, we created a presentation video showing its design, features, and functionality. The video provides a more interactive experience and demonstrates how the product can be used in real situations.
+              To help users better understand the SharkWatts, we created a presentation video showing its design, features, and functionality. The video provides a more interactive experience and demonstrates how the product can be used in real situations.
             </p>
           </div>
           </div>
@@ -82,7 +82,7 @@ export default function LadingPage() {
 
       <footer className="footer">
       <div className="footer-left">
-        <h3>Shark Watt</h3>
+        <h3>Shark Watts</h3>
         <p>Fierce style. Real power.</p>
       </div>
 
@@ -93,7 +93,7 @@ export default function LadingPage() {
       </div>
 
       <div className="footer-right">
-        <p>© 2026 Shark Watt</p>
+        <p>© 2026 Shark Watts</p>
       </div>
     </footer>
 
