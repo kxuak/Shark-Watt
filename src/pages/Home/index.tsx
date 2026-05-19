@@ -54,7 +54,9 @@ function Home() {
 
       <div className="footer-center">
         <a href="https://unifor.br/">Unifor</a>
-        <a href="#features">Features</a>
+        <Link to="/">
+        <a>Features</a>
+        </Link>
         <a href="#">Buy</a>
       </div>
 

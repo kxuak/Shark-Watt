@@ -63,6 +63,23 @@ export default function LadingPage() {
         </div>
       </section>
 
+      <div className="video">
+        <h1 className="title-video">Product Showcase</h1>
+  
+        <div className="video-main">
+          <iframe className="video-container"
+          src="https://www.youtube.com/embed/aocUqaC6B44?si=_a2S8HejW4mTTiJ_"
+          title="YouTube video player"
+          allowFullScreen
+        ></iframe>
+        <div>
+        <p className="video-text">
+              To help users better understand the SharkWatt, we created a presentation video showing its design, features, and functionality. The video provides a more interactive experience and demonstrates how the product can be used in real situations.
+            </p>
+          </div>
+          </div>
+      </div>
+
       <footer className="footer">
       <div className="footer-left">
         <h3>Shark Watt</h3>
